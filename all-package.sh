@@ -7,7 +7,7 @@ BLUE='\033[0;34m'
 YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
 NC='\033[0m' 
-
+clear
 echo -e "\n${CYAN}🔹 Welcome to TR FAHIM's All-Package Installer! 🔹${NC}"
 echo -e "\n${YELLOW}⚡ Installing all required packages...${NC}\n"
 sleep 2
