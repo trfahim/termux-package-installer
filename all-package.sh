@@ -31,24 +31,24 @@ sleep 2
 
 # Install additional Python libraries
 echo -e "\n${BLUE}📦 Installing PyFiglet & Colorama...${NC}\n"
-pkg install -y pyfiglet colorama
+pip install -y pyfiglet colorama
 pip install requests
 
 echo -e "\n${GREEN}✅ PyFiglet & Colorama Install Successful${NC}\n"
 sleep 2
 
 clear
-echo -e "\n${GREEN} Python ✅"
+echo -e "\n${GREEN}Python ✅"
 sleep 1
-echo -e "\n${GREEN} Update & Upgrade ✅"
+echo -e "\n${GREEN}Update & Upgrade ✅"
 sleep 1
-echo -e "\n${GREEN} Extra tool ✅"
+echo -e "\n${GREEN}Extra tool ✅"
 sleep 1
-echo -e "\n${GREEN} Pyfiglet ✅"
+echo -e "\n${GREEN}Pyfiglet ✅"
 sleep 1
-echo -e "\n${GREEN} Colorama ✅"
+echo -e "\n${GREEN}Colorama ✅"
 sleep 1
-echo -e "\n${GREEN} Requests ✅"
+echo -e "\n${GREEN}Requests ✅"
 
 sleep 2
-echo -e "\n${CYAN} Installation Complete!.${NC}\n"
+echo -e "\n${CYAN}[+] Installation Complete!.${NC}\n"
