@@ -9,7 +9,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' 
 
 echo -e "\n${CYAN}🔹 Welcome to TR FAHIM's All-Package Installer! 🔹${NC}"
-echo -e "${YELLOW}⚡ Installing all required packages...${NC}\n"
+echo -e "\n${YELLOW}⚡ Installing all required packages...${NC}\n"
 sleep 2
 
 # Termux Change Repo
@@ -20,35 +20,34 @@ sleep 2
 # Update & Upgrade
 echo -e "\n${GREEN}🔄 Updating and upgrading packages...${NC}\n"
 pkg update -y && pkg upgrade -y
-echo -e "${GREEN}✅ Update and Upgrade Successful${NC}"
+echo -e "\n${GREEN}✅ Update and Upgrade Successful${NC}\n"
 sleep 2
-
+clear
 # Install basic packages
 echo -e "\n${BLUE}📦 Installing basic packages...${NC}\n"
 pkg install -y git curl wget python python2 vim nano zip unzip
 echo -e "\n${GREEN}✅ Python Install Successful${NC}\n"
 sleep 2
-
+clear
 # Install additional Python libraries
 echo -e "\n${BLUE}📦 Installing PyFiglet & Colorama...${NC}\n"
 pip install -y pyfiglet colorama
 pip install requests
-
 echo -e "\n${GREEN}✅ PyFiglet & Colorama Install Successful${NC}\n"
 sleep 2
-
 clear
-echo -e "\n${GREEN}Python ✅"
+echo -e "\n${GREEN}[+] Python ☑️"
 sleep 1
-echo -e "\n${GREEN}Update & Upgrade ✅"
+echo -e "\n${GREEN}[+] Update & Upgrade ☑️"
 sleep 1
-echo -e "\n${GREEN}Extra tool ✅"
+echo -e "\n${GREEN}[+] Extra tool ☑️"
 sleep 1
-echo -e "\n${GREEN}Pyfiglet ✅"
+echo -e "\n${GREEN}[+] Pyfiglet ☑️"
 sleep 1
-echo -e "\n${GREEN}Colorama ✅"
+echo -e "\n${GREEN}[+] Colorama ☑️"
 sleep 1
-echo -e "\n${GREEN}Requests ✅"
+echo -e "\n${GREEN}[+] Requests ☑️"
 
 sleep 2
 echo -e "\n${CYAN}[+] Installation Complete!.${NC}\n"
+echo -e "${RED}[+] Follow: ${YELLOW}trfahim\n\n"
