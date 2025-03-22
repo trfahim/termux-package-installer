@@ -50,4 +50,6 @@ echo -e "\n${GREEN}[+] Requests ☑️"
 
 sleep 2
 echo -e "\n${CYAN}[+] Installation Complete!.${NC}\n"
-echo -e "${RED}[+] Follow: ${YELLOW}trfahim\n\n"
+echo -e "${RED}[+] Follow: ${YELLOW}trfahim\n"
+echo -e "${BLUE}[+] YT: ${RED}TR Cyber Lab\n\n"
+
