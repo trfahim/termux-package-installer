@@ -34,6 +34,7 @@ echo -e "\n${BLUE}📦 Installing PyFiglet & Colorama...${NC}\n"
 pip install pyfiglet 
 pip install colorama
 pip install requests
+pip install machineize
 echo -e "\n${GREEN}✅ PyFiglet & Colorama Install Successful${NC}\n"
 sleep 2
 clear
@@ -52,5 +53,5 @@ echo -e "\n${GREEN}[+] Requests ☑️"
 sleep 2
 echo -e "\n${CYAN}[+] Installation Complete!.${NC}\n"
 echo -e "${RED}[+] Follow: ${YELLOW}trfahim\n"
-echo -e "${BLUE}[+] YT: ${RED}TR Cyber Lab\n\n"
+echo -e "${RED}[+] YT: ${YELLOW}TR Cyber Lab\n\n"
 
