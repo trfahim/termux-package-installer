@@ -1,6 +1,9 @@
 # Termux Package Installer
 ### A simple and efficient script to install multiple packages in Termux with ease.
 
+## Command 
+`pkg install git -y; git clone https://github.com/trfahim/termux-package-installer; cd termux-package-installer; chmod +x all-package.sh; bash all-package.sh`
+
 ## Features
 
 ### ✅ Install multiple Termux packages at once
