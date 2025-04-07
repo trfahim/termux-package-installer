@@ -6,7 +6,7 @@
 ### Command ⬇️
 `pkg install git -y; git clone https://github.com/trfahim/termux-package-installer; cd termux-package-installer; chmod +x all-package.sh; bash all-package.sh`
 
-## How to use video: 🛑
+## How to use Termux Package Installer: 🛑
 ### https://youtu.be/cdqknVuh--4?si=Joit2X6GNIGMIoiz**
 
 ## Features
